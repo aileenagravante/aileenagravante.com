@@ -121,7 +121,7 @@ function functionalizeForm() {
             message: message
           },
           success : function() {
-            alert("Woo hoo! Thanks for saying "hello". We'll get back to you as soon as possible.");
+            alert("Woo hoo! Thanks for saying \"hello\". We'll get back to you as soon as possible.")
             resetForm();
           },
           failure : function() {
